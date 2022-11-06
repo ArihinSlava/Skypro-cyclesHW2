@@ -34,8 +34,6 @@ public class Main {
         int population = 12_000_000;
         int birthRate = population / 1000 * 17;
         int deathRate = 8;
-        int difference = birthRate - 8;
-        int differenceTenYear = 0;
         for (int c = 1; c <= 10; c++) {
             population = population + birthRate - deathRate;
             System.out.println(" Год " + c + " численность населения составляет " + population);
@@ -49,19 +47,19 @@ public class Main {
 
         int accumulation = 15000;
         int amount = 0;
-        int mount1 = 1;
-        while (amount < 12_000_000) {
+        int mount1 = 0;
+        for (; amount < 12_000_000; mount1++) {
             amount = amount + amount / 100 * 7;
             amount = amount + accumulation;
-            System.out.println(" Месяц " + mount1 + " Сумма накоплений равна " + amount + " Рублей ");
-            mount1++;
+            if (mount1 % 6 == 0) {
+                System.out.println(" Месяц " + mount1 + " Сумма накоплений равна " + amount + " Рублей ");
+            }
         }
-
-
-
 
     }
 }
+
+
 
 
 
