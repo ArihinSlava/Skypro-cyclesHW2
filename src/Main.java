@@ -64,8 +64,34 @@ public class Main {
                 System.out.println(" Сегодня пятница " + friday + "-е число. Необходимо сдать отчет");
             }
 
+        System.out.println(" ");
+            /// Домашнее задание - 3 ///
+        ///// Задание 1 /////
+        System.out.println(" Домашнее задание - 3 ");
+        System.out.println(" Задание 1 ");
+
+        int nowYear = 2022;
+        int earlyYear = nowYear - 200;
+        int laterYear = nowYear + 100;
+        int year = 0;
+        while (year <= laterYear) {
+            year += 79;
+            if (year >= earlyYear && year <= laterYear) {
+                System.out.println(year);
+            }
+        }
+        System.out.println(" ");
+        ///// Задание 2 /////
+        System.out.println(" Задание 2 ");
+
+        for (int a = 1; a <= 10; a++) {
+            System.out.println("2 * " + a + " = " + 2*a);
+        }
     }
 }
+
+
+
 
 
 
