@@ -40,24 +40,35 @@ public class Main {
         }
         System.out.println(" ");
         /// Домашнее задание - 2
-        ///// Задание 1
+        ///// Задание 1-2-3
         System.out.println(" Домашнее задание - 2 ");
-        System.out.println(" Задание 1 ");
+        System.out.println(" Задание 1-2-3 ");
 
 
-        int accumulation = 15000;
-        int amount = 0;
+        int amount = 15000;
         int mount1 = 0;
         for (; mount1 < 108; mount1++) {
             amount = amount + amount / 100 * 7;
-            amount = amount + accumulation;
             if (mount1 % 6 == 0) {
                 System.out.println(" Месяц " + mount1 + " Сумма накоплений равна " + amount + " Рублей ");
             }
         }
 
+
+            System.out.println(" ");
+            //// Задача 4
+            System.out.println(" Задача 4 ");
+
+            int friday = 1;
+            for (; friday < 31; friday = friday + 7) {
+                System.out.println(" Сегодня пятница " + friday + "-е число. Необходимо сдать отчет");
+            }
+
     }
 }
+
+
+
 
 
 
