@@ -1,0 +1,71 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        /// Домашнее задание 1
+        ///// Задача 1
+        System.out.println(" Домашнее заданий 1 ");
+        System.out.println(" Задача 1 ");
+        int savings = 15000;
+        int total = 0;
+        int mouth = 1;
+        while (total < 2_459_000) {
+            total = total + total / 100;
+            total = total + savings;
+            System.out.println(" Месяц " + mouth + " сумма накоплений равна " + total + " рублей ");
+            mouth++;
+        }
+
+        ///// Задача 2
+        System.out.println(" Задача 2 ");
+
+        int numeralNumber = 0;
+        while (numeralNumber < 10) {
+            numeralNumber++;
+            System.out.print(numeralNumber + " ");
+        }
+        System.out.println(" ");
+        for (int b = 10; b > 0; b--) {
+            System.out.print(b + " ");
+        }
+
+        ///// Задание 3
+        System.out.println(" Задача 3 ");
+        int population = 12_000_000;
+        int birthRate = population / 1000 * 17;
+        int deathRate = 8;
+        int difference = birthRate - 8;
+        int differenceTenYear = 0;
+        for (int c = 1; c <= 10; c++) {
+            population = population + birthRate - deathRate;
+            System.out.println(" Год " + c + " численность населения составляет " + population);
+        }
+        System.out.println(" ");
+        /// Домашнее задание - 2
+        ///// Задание 1
+        System.out.println(" Домашнее задание - 2 ");
+        System.out.println(" Задание 1 ");
+
+
+        int accumulation = 15000;
+        int amount = 0;
+        int mount1 = 1;
+        while (amount < 12_000_000) {
+            amount = amount + amount / 100 * 7;
+            amount = amount + accumulation;
+            System.out.println(" Месяц " + mount1 + " Сумма накоплений равна " + amount + " Рублей ");
+            mount1++;
+        }
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
