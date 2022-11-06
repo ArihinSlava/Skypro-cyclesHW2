@@ -48,7 +48,7 @@ public class Main {
         int accumulation = 15000;
         int amount = 0;
         int mount1 = 0;
-        for (; amount < 12_000_000; mount1++) {
+        for (; mount1 < 108; mount1++) {
             amount = amount + amount / 100 * 7;
             amount = amount + accumulation;
             if (mount1 % 6 == 0) {
