@@ -33,7 +33,7 @@ public class Main {
         System.out.println(" Задача 3 ");
         int population = 12_000_000;
         int birthRate = population / 1000 * 17;
-        int deathRate = 8;
+        int deathRate = population / 1000 * 8;
         for (int c = 1; c <= 10; c++) {
             population = population + birthRate - deathRate;
             System.out.println(" Год " + c + " численность населения составляет " + population);
@@ -85,7 +85,7 @@ public class Main {
         System.out.println(" Задание 2 ");
 
         for (int a = 1; a <= 10; a++) {
-            System.out.println("2 * " + a + " = " + 2*a);
+            System.out.println("2 * " + a + " = " + 2 * a);
         }
     }
 }
